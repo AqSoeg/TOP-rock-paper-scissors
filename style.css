@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 24px;
+}
+
+button {
+    border: solid 1px white;
+    background-color:steelblue;
+    font-size: 24px;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    width: 120px;
+}
+
+#result {
+    margin-top: 36px;
+    font-size: 24px;
+
+}
+
+.score-container {
+    margin-top: 24px;
+}
