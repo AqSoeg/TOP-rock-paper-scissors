@@ -54,8 +54,6 @@ function playRound(playerSelection, computerSelection) {
     default:
       break;
   }
-  console.log(output);
-  console.log(flag);
   return [output, flag];
 }
 
